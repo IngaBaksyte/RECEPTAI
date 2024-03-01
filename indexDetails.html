@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Recipe</title>
+</head>
+
+<body class="container container-fluid">
+    <header class="my-4">
+        <div class="d-flex col-12 col-md-7 mx-auto align-items-center justify-content-between p-0">
+            <a class="back button btn" href="#"><img src="img/back-buton.png" alt="back"></a>
+            <a class="button btn" href="#"><img src="img/heart-full.png" alt="heart"></a>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <!-- Pasirinkto patiekalo html -->
+        <article class="recipe d-flex justify-content-center my-5">
+            <div class="card col-12 col-md-7 border-0">
+                <div class="position-relative">
+                    <img class="card-img rounded-5" src="" alt="food">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center">
+                        <h1 class="title"></h1>
+                        <div class="video-button btn">
+                            <a class="video" href="#"><img src="img/fi-sr-play.png" alt="heart"> Watch the video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-4">
+                    <div class="d-flex justify-content-between my-4">
+                        <a class="btn btn-primary col-5 fs-5 active" aria-current="page" href="#"
+                            role="button">Ingredients</a>
+                        <a class="btn btn-primary col-5 fs-5" href="#" role="button">Details</a>
+                    </div>
+                    <h2></h2>
+                    <ul class="ingredients px-3" style="list-style-type:none;">
+                        <!-- <li class="ingredient row align-items-center ps-3">800g chicken breast</li>
+                        <li class="ingredient row align-items-center ps-3">1/2 cup plain yogurt</li>
+                        <li class="ingredient row align-items-center ps-3">1/2 tablespoons minced garlic</li> -->
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script> <!--visada apacioj -->
+    <script src="js/appDetails.js"></script>
+</body>
+
+</html>
